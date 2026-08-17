@@ -478,7 +478,7 @@ input:focus{
 
 /* memory starts */
 #memory-sec{
-    margin: 50px 0;
+    margin: 30px 0;
     width: 100%;
     background-color: #036e8a;
     position: relative;
@@ -529,3 +529,222 @@ input:focus{
 }
 
 /* memory ends */
+
+/* destinations starts */
+#destination2-sec{
+    position: relative;
+}
+.shade3 img{
+    position: absolute;
+    top: -2%;
+    left: 45%;
+    transform: translateX(-50%);
+    z-index: -9;
+}
+.destination2{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+}
+.destination2 h2{
+    color: #036e8a;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.destination2 p{
+    width: 830px;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+}
+.locations{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.locations img:nth-child(6){
+    transform: translateY(-140px);
+}
+.locations img:nth-child(8){
+    transform: translateY(-140px);
+}
+.names1{
+    color: #707070;
+    position: absolute;
+    top: 52%;
+    left: 3%;
+}
+.names2{
+    color: #707070;
+    position: absolute;
+    top: 40%;
+    left: 27%;
+}
+.names3{
+    color: #707070;
+    position: absolute;
+    top: 52%;
+    left: 52%;
+}
+.names4{
+    color: #707070;
+    position: absolute;
+    top: 39%;
+    left: 76%;
+}
+.names5{
+    color: #707070;
+    position: absolute;
+    top: 79%;
+    left: 3%;
+}
+.names6{
+    color: #707070;
+    position: absolute;
+    top: 78%;
+    left: 27%;
+}
+.names7{
+    color: #707070;
+    position: absolute;
+    top: 78%;
+    right: 34%;
+}
+.names8{
+    color: #707070;
+    position: absolute;
+    top: 78%;
+    right: 14%;
+}
+.names h3{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.names span{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+/* destinations ends */
+
+/* details starts */
+#details-sec{
+    padding: 30px 0;
+    width: 100%;
+    background: url('../img/review.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divs{
+    color: #707070;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.divs h3{
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.divs p{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+/* details ends */
+
+/* subscribe starts */
+#subscribe-sec{
+    margin: 40px 0;
+    position: relative;
+}
+.shade4 img{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -9;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.sub-prt1{
+    display: flex;
+    gap: 20px;
+}
+.sub-prt2{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+.txt-prt3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.txt-prt3 p{
+    color: #036e8a;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.txt-prt3 h2{
+    color: #036e8a;
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.mail-sec{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+.message i{
+    color: #036e8a;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+.mail-sec input{
+    padding: 28px 55px;
+    background-color: white;
+    color: #036e8a;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.mailbtn{
+    padding: 23px 32px;
+    background-color: rgba(255, 128, 0, 0.4);
+    border: none;
+    border-radius: 16px;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+.mailbtn:hover{
+    background-color: #ff8000;
+    color: white;
+    transform: translateY(-10px);
+}
+
+/* subscribe ends */
