@@ -887,7 +887,7 @@ input:focus{
 .shade2 img{
     position: absolute;
     top: 10%;
-    left: 47%;
+    left: 50%;
     transform: translateX(-50%);
     z-index: 1;
 }
@@ -914,7 +914,6 @@ input:focus{
     padding: 40px 0;
     width: 661px;
     color: white;
-    /* border-bottom: 3px solid white; */
     font-size: 30px;
     font-weight: 500;
     line-height: 150%;
@@ -946,3 +945,7 @@ input:focus{
 }
 
 /* help ends */
+
+/* figam link
+https://www.figma.com/design/frVtKbDfeDmn3JSzQAP46Y/Travel-Landing-Page-XD---FIGMA-Version?node-id=0-1&p=f&t=Eyyrn6B4BoL01qzB-0
+ */
