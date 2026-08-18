@@ -748,3 +748,201 @@ input:focus{
 }
 
 /* subscribe ends */
+
+/* partners starts */
+#partners-sec{
+    margin: 48px 0;
+}
+.partners{
+    padding: 50px 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid #036e8a;
+    border-radius: 16px;
+}
+.prt1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.partners span{
+    width: 4px;
+    height: 96px;
+    background-color: #036e8a;
+}
+.prt2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+/* partners ends */
+
+/* customers starts */
+#customers-sec{
+    margin: 48px 0;
+}
+.customers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+}
+.customers h2{
+    color: #036e8a;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.customers p{
+    width: 830px;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+}
+.profiles{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 33px;
+}
+.profbox{
+    padding: 40px 60px;
+    background-color: rgba(0, 0, 0, 0.16);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    transition: all linear .3s;
+}
+.profbox:nth-child(odd):hover{
+    background-color: #036e8a;
+    transform: translateY(-12px);
+}
+.profbox:nth-child(even):hover{
+    background-color: #ff8000;
+    transform: translateY(-12px);
+}
+.uname{
+    margin-top: 21px;
+    color: #036e8a;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: all linear .3s;
+}
+.profbox:nth-child(odd):hover .uname, .rating i{
+    color: white;
+}
+.profbox:nth-child(even):hover .uname, .rating i{
+    color: white;
+}
+.desig{
+    color: #262525;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: all linear .3s;
+}
+.profbox:nth-child(odd):hover .desig{
+    color: white;
+}
+.profbox:nth-child(even):hover .desig{
+    color: white;
+}
+.rating1 i{
+    color: #ff8000;
+    transition: all linear .3s;
+}
+.profbox:nth-child(odd):hover .rating1 i{
+    color: white;
+}
+.profbox:nth-child(even):hover .rating1 i{
+    color: white;
+}
+.profbox span{
+    margin-top: 21px;
+    width: 420px;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    transition: all linear .3s;
+}
+.profbox:nth-child(odd):hover span{
+    color: white;
+}
+.profbox:nth-child(even):hover span{
+    color: white;
+}
+
+/* customers ends */
+
+/* help starts */
+#help-sec{
+    margin: 30px 0;
+    position: relative;
+}
+.shade2 img{
+    position: absolute;
+    top: 10%;
+    left: 47%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.help{
+    padding: 84px 0;
+    background-color: #036e8a;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+.help h2{
+    z-index: 2;
+    padding: 50px;
+    color: white;
+    border-bottom: 3px solid white;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.help p{
+    z-index: 2;
+    padding: 40px 0;
+    width: 661px;
+    color: white;
+    /* border-bottom: 3px solid white; */
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+}
+.dash{
+    z-index: 2;
+    width: 411px;
+    height: 3px;
+    background-color: white;
+}
+.helpbtn{
+    margin: 43px 0;
+    z-index: 2;
+    padding: 19px 48px;
+    background-color: rgba(255, 128, 0, 0.4);
+    border: none;
+    border-radius: 16px;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+.helpbtn:hover{
+    background-color: #ff8000;
+    color: white;
+    transform: translateY(-10px);
+}
+
+/* help ends */
