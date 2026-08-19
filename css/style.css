@@ -568,6 +568,12 @@ input:focus{
     align-items: flex-start;
     flex-wrap: wrap;
 }
+.locations img{
+    transition: all linear .3s;
+}
+/* .locations img:hover .names1, .names2, .names3, .names4{
+    color: white;
+} */
 .locations img:nth-child(6){
     transform: translateY(-140px);
 }
@@ -652,6 +658,10 @@ input:focus{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    transition: all linear .3s;
+}
+.details:hover .divs{
+    color: white;
 }
 .divs h3{
     font-size: 55px;
@@ -761,10 +771,11 @@ input:focus{
     border: 3px solid #036e8a;
     border-radius: 16px;
 }
-.prt1{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.partners img{
+    width: 135px;
+    object-fit: cover;
+    background: transparent;
+    border-radius: 12px;
 }
 .partners span{
     width: 4px;
@@ -945,6 +956,106 @@ input:focus{
 }
 
 /* help ends */
+
+/* services starts */
+#service-sec{
+    margin-top: 100px;
+}
+.service{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.service ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.service ul li{
+    padding: 0 0 15px 0;
+    position: relative;
+}
+.service ul li::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #036e8a;
+    position: absolute;
+    top: 103%;
+    left: 0%;
+    transition: all linear .3s;
+}
+.service ul li:hover::after{
+    width: 100%;
+}
+.service ul li h4{
+    color: #036e8a;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.service ul li a{
+    color: #262525;
+    font-size: 20px;
+    text-transform: capitalize;
+    transition: all linear .3s;
+}
+.service ul li a:hover{
+    color: #036e8a;
+}
+
+/* services ends */
+
+/* footer starts */
+#foot-sec{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ff8000;
+}
+.foot{
+    padding: 42px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot p{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.foot ul{
+    display: flex;
+    gap: 20px;
+}
+.foot ul li{
+    position: relative;
+}
+.foot ul li::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 103%;
+    left: 0%;
+    transition: all linear .3s;
+}
+.foot ul li:hover::after{
+    width: 100%;
+}
+.foot ul li a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.foot ul li a:hover{
+    color: white;
+    transition: all linear .3s;
+}
+
+/* footer ends */
+
 
 /* figam link
 https://www.figma.com/design/frVtKbDfeDmn3JSzQAP46Y/Travel-Landing-Page-XD---FIGMA-Version?node-id=0-1&p=f&t=Eyyrn6B4BoL01qzB-0
